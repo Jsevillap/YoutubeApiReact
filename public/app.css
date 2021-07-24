@@ -1,0 +1,25 @@
+.clicky{
+    transition: all ease-in 250ms;
+}
+.clicky:hover{
+    cursor:pointer;
+    color:goldenrod;
+}
+
+#fullPageList{
+    box-shadow:none;
+}
+.ui.celled.grid>.column:not(.row), .ui.celled.grid>.row>.column {
+    box-shadow: none !important;
+}
+
+@media(max-width:760px){
+
+    #fullPage{
+        width:100% !important;
+    }
+
+    #fullPageList{
+        width:100% !important;
+    }
+}
